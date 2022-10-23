@@ -1,0 +1,157 @@
+/* Timothy Jones Ong
+// 300983486
+// October 5, 2021
+*/
+/* custom css goes here */
+
+body {
+  font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+  overflow-x: hidden;
+  min-height: 100vh;
+  height: 100%;
+  position: relative;
+  background: #222222;
+}
+
+h1 {
+  font-family: "Merienda", cursive;
+}
+
+h2 {
+  font-family: "Merienda", cursive;
+}
+
+.p-about {
+  font-family: "Open Sans", cursive;
+}
+
+.page-holder {
+  min-height: 100vh;
+}
+
+.bg-cover {
+  background-size: cover !important;
+}
+
+.bg-transparent-black {
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 30px;
+}
+
+.border-white {
+  border: 1px solid white;
+}
+
+.media {
+  align-items: center;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-black {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.text-shadow {
+  text-shadow: 0px 3px 2px rgba(50, 50, 50, 1);
+}
+
+.icon-circled {
+  font-size: 3rem;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+.icon-squared {
+  border-radius: 20%;
+  border: 1px solid white;
+  padding: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+
+.icon-media {
+  margin-right: 1.5rem;
+  margin-bottom: 0;
+}
+
+.icon-logo {
+  margin-right: 0.5rem;
+}
+
+.btn-contact {
+  padding: 15px 50px;
+  font-size: 1.3rem;
+  font-weight: 300;
+  background: transparent;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-submit {
+  border-radius: 0;
+  display: block;
+  padding: 15px 43px;
+}
+
+.jumbotron {
+  background: #aaa;
+  height: 100px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.card-footer {
+  height: 8vh;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* used by bottom_nav only*/
+.footer {
+  height: 2vh;
+}

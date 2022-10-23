@@ -1,0 +1,47 @@
+<%- include partials/header.ejs %> <%- include partials/main_nav.ejs %>
+
+<!-- Main Content -->
+<main class="container-fluid">
+  <!--Set background, uses css and bootstrap card-->
+  <div
+    style="background: url(/assests/images/bg_02.jpg)"
+    class="page-holder bg-cover"
+  >
+    <div class="bg-transparent-black">
+      <div class="row mb-4">
+        <header class="col-xl-12">
+          <h2 class="text-shadow">About Me</h2>
+        </header>
+      </div>
+      <div class="card">
+        <div class="card-horizontal">
+          <div class="img-square-wrapper">
+            <img
+              class=""
+              src="/assests/images/me.jpg"
+              alt="Timothy's picture"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text text-black p-about">
+              I am an expert software engineer who loves to code for software
+              and web development. I am particularly passionate about learning
+              about new technologies such as cloud computing and machine
+              learning. Currently, I am finishing my advanced diploma in
+              software engineering technology at Centennial College. And I am a
+              peer tutor on the campus that helps other students understand
+              their difficulty in programming.
+            </p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="/assests/pdf/TimothyJonesOng_Resume.pdf" target="_blank"
+            >My Resume</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<%- include partials/bottom_nav.ejs %> <%- include partials/footer.ejs %>

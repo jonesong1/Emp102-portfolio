@@ -1,0 +1,64 @@
+<%- include partials/header.ejs %> <%- include partials/main_nav.ejs %>
+
+<!-- Main Content -->
+<main class="container-fluid">
+  <!--Set background, uses css for transparent box-->
+  <div
+    style="background: url(/assests/images/bg_03.jpg)"
+    class="page-holder bg-cover text-shadow"
+  >
+    <div class="bg-transparent-black">
+      <div class="row mb-4">
+        <header class="col-xl-12">
+          <h2>Projects</h2>
+        </header>
+      </div>
+      <div class="row">
+        <div class="media bg-transparent-black border-white">
+          <img
+            src="/assests/images/java_app.jpg"
+            class="img-thumbnail icon-squared icon-media"
+          />
+          <div class="media-body">
+            <h3>Players and Games System</h3>
+            <p>
+              This is a GUI Java application that allows the players to submit
+              information about themselves and the games that they are playing
+              on-line. The information will be stored in a database.
+            </p>
+          </div>
+        </div>
+        <div class="media bg-transparent-black border-white">
+          <img
+            src="/assests/images/AspNetCore_app.jpg"
+            class="img-thumbnail icon-squared icon-media"
+          />
+          <div class="media-body">
+            <h3>Aws Cloud Web App</h3>
+            <p>
+              A start-up wants to compete with Netflix. It allows registered
+              users to upload/download movie, write comments, rate the movie,
+              etc. Users can view all comments and ratings.
+            </p>
+          </div>
+        </div>
+        <div class="media bg-transparent-black border-white">
+          <img
+            src="/assests/images/android_app.jpg"
+            class="img-thumbnail icon-squared icon-media"
+          />
+          <div class="media-body">
+            <h3>Interactive Mobile Application</h3>
+            <p>
+              Android UI helps its clients to find the best option for a home.
+              Display a user-friendly screen with available homes whenever the
+              user select a home type from the menu.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<%- include partials/bottom_nav.ejs %> <%- include partials/footer.ejs %>

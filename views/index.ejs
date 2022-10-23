@@ -1,0 +1,23 @@
+<%- include partials/header.ejs %> <%- include partials/main_nav.ejs %>
+
+<!-- Main Content -->
+<main class="container-fluid">
+  <% if (title == "Home"){ %>
+  <div
+    style="background: url(/assests/images/bg_01.jpg)"
+    class="page-holder bg-cover text-shadow"
+  >
+    <div class="col-md-5 p-lg-5 mx-auto">
+      <h1 class="display-5 font-weight-normal">Hi,</h1>
+      <h1 class="display-5 font-weight-normal">I'm Timothy,</h1>
+      <h1 class="display-5 font-weight-normal">software engineer.</h1>
+      <p class="lead font-weight-normal">
+        Full Stack Developer | Software Developer
+      </p>
+      <a class="btn btn-secondary btn-sm" href="/contact">CONTACT ME</a>
+    </div>
+  </div>
+  <% } %>
+</main>
+
+<%- include partials/bottom_nav.ejs %> <%- include partials/footer.ejs %>
