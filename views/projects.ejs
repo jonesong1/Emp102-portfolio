@@ -15,10 +15,16 @@
       </div>
       <div class="row">
         <div class="media bg-transparent-black border-white">
-          <img
-            src="/assests/images/java_app.jpg"
-            class="img-thumbnail icon-squared icon-media"
-          />
+          <button
+            onclick="sweetalertclick1();"
+            type="button"
+            class="icon-squared icon-media"
+          >
+            <img
+              src="/assests/images/java_app_saturate.jpg"
+              class="img-thumbnail icon-squared icon-media"
+            />
+          </button>
           <div class="media-body">
             <h3>Players and Games System</h3>
             <p>
@@ -29,10 +35,16 @@
           </div>
         </div>
         <div class="media bg-transparent-black border-white">
-          <img
-            src="/assests/images/AspNetCore_app.jpg"
-            class="img-thumbnail icon-squared icon-media"
-          />
+          <button
+            onclick="sweetalertclick2();"
+            type="button"
+            class="icon-squared icon-media"
+          >
+            <img
+              src="/assests/images/AspNetCore_app_saturate.jpg"
+              class="img-thumbnail icon-squared icon-media"
+            />
+          </button>
           <div class="media-body">
             <h3>Aws Cloud Web App</h3>
             <p>
@@ -43,10 +55,17 @@
           </div>
         </div>
         <div class="media bg-transparent-black border-white">
-          <img
-            src="/assests/images/android_app.jpg"
-            class="img-thumbnail icon-squared icon-media"
-          />
+          <button
+            onclick="sweetalertclick3();"
+            type="button"
+            class="icon-squared icon-media"
+          >
+            <img
+              src="/assests/images/android_app_saturate.jpg"
+              class="img-thumbnail icon-squared icon-media"
+            />
+          </button>
+
           <div class="media-body">
             <h3>Interactive Mobile Application</h3>
             <p>
@@ -60,5 +79,51 @@
     </div>
   </div>
 </main>
-
+<script>
+  function sweetalertclick1() {
+    Swal.fire({
+      title: "Game Player Information",
+      text: "The App allows the players to submit information about themselves and the games that they are playin on-line. It was created using Eclipse. Tools use JavaFX components, JDBC connectivity and SQLite datase.",
+      imageUrl: "/assests/images/java_app.jpg",
+      imageWidth: 443,
+      imageHeight: 290,
+      backdrop: `
+    rgba(0,0,123,0.4)
+    url("/assests/images/nyan-dog.gif")
+    left top
+    no-repeat
+  `,
+    });
+  }
+  function sweetalertclick2() {
+    Swal.fire({
+      title: "LeaseOrRentHome Inc.",
+      text: "The Web application uses ASP.NET and hosts in AWS Elastic Beanstalk. It was created using Microsoft C#. Tools use ASP.NET Core, AWS S3, DyanomoDB, System Manager, RDS and Microsoft SQL.",
+      imageUrl: "/assests/images/AspNetCore_app.jpg",
+      imageWidth: 551,
+      imageHeight: 300,
+      backdrop: `
+    rgba(0,0,123,0.4)
+    url("/assests/images/nyan-dog.gif")
+    left top
+    no-repeat
+  `,
+    });
+  }
+  function sweetalertclick3() {
+    Swal.fire({
+      title: "LeaseOrRentHome Inc.",
+      text: "The App helps its clients to find the best option for a home. It was created using Andriod Studio. Tools use resources, fragments, Room persistence library, MVVM architecture, and Map Location Service.",
+      imageUrl: "/assests/images/android_app.jpg",
+      imageWidth: 287,
+      imageHeight: 364,
+      backdrop: `
+    rgba(0,0,123,0.4)
+    url("/assests/images/nyan-dog.gif")
+    left top
+    no-repeat
+  `,
+    });
+  }
+</script>
 <%- include partials/bottom_nav.ejs %> <%- include partials/footer.ejs %>
